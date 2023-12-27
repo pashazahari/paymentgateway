@@ -17,7 +17,7 @@ add below code to your ``composer.json`` file
 
 run below command to install this package from your command promt or terminal
 ````shell
-composer require xgenious/paymentgateway 
+composer require Dht/paymentgateway 
 ````
 
 if this payment package asked you for username and password here is it or generate your own token.
@@ -114,7 +114,7 @@ dd($paytm->ipn_response());
 
 ## CinetPay
 
-[Checkout CinetPay Setup Documentation](https://xgenious.com/docs/nexelit/payment-gateway-settings/cinetpay/)
+[Checkout CinetPay Setup Documentation](https://Dht.com/docs/nexelit/payment-gateway-settings/cinetpay/)
 
 
 #### Paytm ipn route example
@@ -335,7 +335,7 @@ MASTERCARD                                  Description
 ```
 
 ## 2.0 Setup For Razorpay
-[Checkout Razorpay Setup Documentation](https://xgenious.com/docs/nexelit/payment-gateway-settings/razorpay/)
+[Checkout Razorpay Setup Documentation](https://Dht.com/docs/nexelit/payment-gateway-settings/razorpay/)
 route and middleware code will be same as version ^1.0, version ^2.0 will change only customer_charge and ipn_response method
 
 #### charge_customer method example
@@ -381,7 +381,7 @@ dd($razorpay->ipn_response());
 
 
 ## 2.0 Setup For Mollie
-[Checkout Mollie Setup Documentation](https://xgenious.com/docs/nexelit/payment-gateway-settings/mollie/)
+[Checkout Mollie Setup Documentation](https://Dht.com/docs/nexelit/payment-gateway-settings/mollie/)
 route and middleware code will be same as version ^1.0, version ^2.0 will change only customer_charge and ipn_response method
 #### Mollie ipn route example
 ````php
@@ -427,7 +427,7 @@ dd($mollie->ipn_response());
 
 ## FlutterwaveRave
 
-[Checkout Flutterwave Setup Documentation](https://xgenious.com/docs/nexelit/payment-gateway-settings/flutterwave/)
+[Checkout Flutterwave Setup Documentation](https://Dht.com/docs/nexelit/payment-gateway-settings/flutterwave/)
 
 #### FlutterwaveRave ipn route example
 ````php
@@ -499,7 +499,7 @@ dd($flutterwave->ipn_response());
 
 ## Paystack
 
-[Checkout Paystack Setup Documentation](https://xgenious.com/docs/nexelit/payment-gateway-settings/paystack/)
+[Checkout Paystack Setup Documentation](https://Dht.com/docs/nexelit/payment-gateway-settings/paystack/)
 
 Here is Test Credentials For Paystack
 
@@ -555,7 +555,7 @@ dd($paystack->ipn_response());
 
 
 ## Payfast
-[Checkout Payfast Setup Documentation](https://xgenious.com/docs/nexelit/payment-gateway-settings/payfast/)
+[Checkout Payfast Setup Documentation](https://Dht.com/docs/nexelit/payment-gateway-settings/payfast/)
 
 Here is Test Credentials For Payfast
 
@@ -627,7 +627,7 @@ dd($payfast->ipn_response());
 
 
 ## Cashfree
-[Checkout Cashfree Setup Documentation](https://xgenious.com/docs/nexelit/payment-gateway-settings/cashfree/)
+[Checkout Cashfree Setup Documentation](https://Dht.com/docs/nexelit/payment-gateway-settings/cashfree/)
 
 
 #### Cashfree ipn route example
@@ -693,7 +693,7 @@ dd($cashfree->ipn_response());
 
 
 ## Instamojo
-[Checkout Instamojo Setup Documentation](https://xgenious.com/docs/nexelit/payment-gateway-settings/instamojo)
+[Checkout Instamojo Setup Documentation](https://Dht.com/docs/nexelit/payment-gateway-settings/instamojo)
 
 >> Instamojo Pago only works with INR currency
 
@@ -754,7 +754,7 @@ dd($instamojo->ipn_response());
 
 ## Mercadopago
 
-[Checkout Mercadopago Setup Documentation](https://xgenious.com/docs/nexelit/payment-gateway-settings/mercadopago/)
+[Checkout Mercadopago Setup Documentation](https://Dht.com/docs/nexelit/payment-gateway-settings/mercadopago/)
 
 >> Mercado Pago only works with BRL currency 
 
@@ -813,7 +813,7 @@ dd($marcadopago->ipn_response());
 
 ## Squareup
 
-[Checkout Squareup Setup Documentation](https://xgenious.com/docs/nexelit/payment-gateway-settings/how-to-get-square-payment-gateway-api-credentials/)
+[Checkout Squareup Setup Documentation](https://Dht.com/docs/nexelit/payment-gateway-settings/how-to-get-square-payment-gateway-api-credentials/)
 
 Here is Test Credentials For Squareup 
 
@@ -895,7 +895,7 @@ dd($squareup->ipn_response());
 
 ## PayTabs
 
-[Checkout PayTabs Setup Documentation](https://xgenious.com/docs/nexelit/payment-gateway-settings/how-to-get-paytabs-payment-gateway-api-credentials/)
+[Checkout PayTabs Setup Documentation](https://Dht.com/docs/nexelit/payment-gateway-settings/how-to-get-paytabs-payment-gateway-api-credentials/)
 
 Here is Test Credentials For PayTabs 
 
@@ -971,7 +971,7 @@ dd($paytabs->ipn_response());
 ```
 
 ## 2.0 Setup For BillPlz
-[Checkout BillPlz Setup Documentation](https://xgenious.com/docs/nexelit/payment-gateway-settings/how-to-setup-api-for-billplz-payment-gateway/)
+[Checkout BillPlz Setup Documentation](https://Dht.com/docs/nexelit/payment-gateway-settings/how-to-setup-api-for-billplz-payment-gateway/)
 
 >> Billplz supported currency list ['MYR]
 
@@ -1030,7 +1030,7 @@ dd($billplz->ipn_response());
 
 ```
 ## 2.0 Setup For Zitopay
-[Checkout Zitopay Setup Documentation](https://xgenious.com/docs/nexelit/payment-gateway-settings/zitopay-payment-gateway-setup)
+[Checkout Zitopay Setup Documentation](https://Dht.com/docs/nexelit/payment-gateway-settings/zitopay-payment-gateway-setup)
 
 >> Zitopay supported currency list [
 "USD",
@@ -1241,7 +1241,7 @@ dd($zitopay->ipn_response());
 ```
 
 ## 3.0 Setup For Toyyibpay
-[Checkout Toyyibpay Setup Documentation](https://docs.xgenious.com/docs/nexelit/payment-gateway-settings/toyyibpay-payment-gateway-setup)
+[Checkout Toyyibpay Setup Documentation](https://docs.Dht.com/docs/nexelit/payment-gateway-settings/toyyibpay-payment-gateway-setup)
 ```php
 >> Toyyibpay supported currency list ["MYR"]
 ````
@@ -1303,7 +1303,7 @@ $toyyibpay->ipn_response();
 
 
 ## Setup For Pagali
-[Checkout Pagali Setup Documentation](https://docs.xgenious.com/docs/nexelit/payment-gateway-settings/pagali-payment-gateway-setup)
+[Checkout Pagali Setup Documentation](https://docs.Dht.com/docs/nexelit/payment-gateway-settings/pagali-payment-gateway-setup)
 ```php
 >> Pagali supported currency list ['MYR','USD','EUR','CVE']
 ````
@@ -1365,7 +1365,7 @@ dd($pagali->ipn_response());
 
 
 ## Setup For Authorize.Net
-[Checkout Authorize.nnt Setup Documentation](https://docs.xgenious.com/docs/nexelit/payment-gateway-settings/authorize-payment-gateway-setup)
+[Checkout Authorize.nnt Setup Documentation](https://docs.Dht.com/docs/nexelit/payment-gateway-settings/authorize-payment-gateway-setup)
 ```php
 >>  Authorize.Net supported currency list ['AUD', 'CAD', 'CHF', 'DKK', 'EUR', 'GBP', 'JPY', 'NOK', 'NZD', 'SEK', 'USD', 'ZAR'];
 ````
@@ -1524,7 +1524,7 @@ Route::get('/wipay-ipn', [\App\Http\Controllers\PaymentLogController::class,'wip
 
 
 ## Setup For TransactionCloud
-[Checkout TransactionCloud Setup Documentation](https://docs.xgenious.com/docs/nexelit/payment-gateway-settings/transaction-cloud-payment-gateway-setup)
+[Checkout TransactionCloud Setup Documentation](https://docs.Dht.com/docs/nexelit/payment-gateway-settings/transaction-cloud-payment-gateway-setup)
 ```php
 >>  TransactionCloud supported currency list  ['USD','EUR','PLN','INR','CAD','CNY','AUD','JPY','NOK','GBP','CHF','SGD','BRL','RUB','BGN','CZK','DKK','HUF','RON','SEK','GEL']
 ````
@@ -1636,7 +1636,7 @@ class VerifyCsrfToken extends Middleware
 
 
 ## Setup For Senangpay
-[Senangpay Documentation](https://docs.xgenious.com/docs/nexelit/payment-gateway-settings/how-to-configure-senangpay/)
+[Senangpay Documentation](https://docs.Dht.com/docs/nexelit/payment-gateway-settings/how-to-configure-senangpay/)
 
 ```php
 >>  Senangpay supported currency list  ['MYR']

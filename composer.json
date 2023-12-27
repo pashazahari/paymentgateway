@@ -1,9 +1,9 @@
 {
-    "name": "xgenious/paymentgateway",
+    "name": "Dht/paymentgateway",
     "description": "a laravel package to manage multiple payment gateway",
     "keywords": [
         "Laravel",
-        "xgenious"
+        "Dht"
     ],
     "authors": [
         {
