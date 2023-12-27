@@ -1,11 +1,11 @@
 <?php
 
-namespace Dht\Paymentgateway\Http\Controllers;
+namespace Digihust\Paymentgateway\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Session;
 use Unicodeveloper\Paystack\Facades\Paystack;
-use Dht\Paymentgateway\Facades\XgPaymentGateway;
+use Digihust\Paymentgateway\Facades\XgPaymentGateway;
 
 class AuthorizeNetPaymentController extends Controller
 {

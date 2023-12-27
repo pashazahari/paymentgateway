@@ -1,19 +1,19 @@
 <?php
 
-namespace Dht\Paymentgateway\Base\Gateways;
+namespace Digihust\Paymentgateway\Base\Gateways;
 
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\Crypt;
 use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Str;
-use Dht\Paymentgateway\Base\GlobalCurrency;
-use Dht\Paymentgateway\Base\PaymentGatewayBase;
+use Digihust\Paymentgateway\Base\GlobalCurrency;
+use Digihust\Paymentgateway\Base\PaymentGatewayBase;
 use Srmklive\PayPal\Services\PayPal as PayPalClient;
-use Dht\Paymentgateway\Base\PaymentGatewayHelpers;
-use Dht\Paymentgateway\Traits\ConvertUsdSupport;
-use Dht\Paymentgateway\Traits\CurrencySupport;
-use Dht\Paymentgateway\Traits\PaymentEnvironment;
+use Digihust\Paymentgateway\Base\PaymentGatewayHelpers;
+use Digihust\Paymentgateway\Traits\ConvertUsdSupport;
+use Digihust\Paymentgateway\Traits\CurrencySupport;
+use Digihust\Paymentgateway\Traits\PaymentEnvironment;
 use net\authorize\api\contract\v1 as AnetAPI;
 use net\authorize\api\controller as AnetController;
 

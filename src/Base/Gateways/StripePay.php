@@ -1,14 +1,14 @@
 <?php
 
-namespace Dht\Paymentgateway\Base\Gateways;
+namespace Digihust\Paymentgateway\Base\Gateways;
 
-use  Dht\Paymentgateway\Base\PaymentGatewayBase;
+use  Digihust\Paymentgateway\Base\PaymentGatewayBase;
 use Stripe\Charge;
 use Stripe\Stripe;
 use Stripe\StripeClient;
 use Stripe\Checkout\Session;
-use Dht\Paymentgateway\Traits\CurrencySupport;
-use Dht\Paymentgateway\Traits\PaymentEnvironment;
+use Digihust\Paymentgateway\Traits\CurrencySupport;
+use Digihust\Paymentgateway\Traits\PaymentEnvironment;
 
 class StripePay extends PaymentGatewayBase
 {

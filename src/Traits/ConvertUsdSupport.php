@@ -1,8 +1,8 @@
 <?php
 
-namespace Dht\Paymentgateway\Traits;
+namespace Digihust\Paymentgateway\Traits;
 
-use Dht\Paymentgateway\Base\GlobalCurrency;
+use Digihust\Paymentgateway\Base\GlobalCurrency;
 
 trait ConvertUsdSupport
 {

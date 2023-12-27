@@ -1,11 +1,11 @@
 <?php
 
-namespace Dht\Paymentgateway\Base\Gateways;
-use Dht\Paymentgateway\Base\GlobalCurrency;
-use Dht\Paymentgateway\Base\PaymentGatewayBase;
-use Dht\Paymentgateway\Traits\CurrencySupport;
-use Dht\Paymentgateway\Traits\IndianCurrencySupport;
-use Dht\Paymentgateway\Traits\PaymentEnvironment;
+namespace Digihust\Paymentgateway\Base\Gateways;
+use Digihust\Paymentgateway\Base\GlobalCurrency;
+use Digihust\Paymentgateway\Base\PaymentGatewayBase;
+use Digihust\Paymentgateway\Traits\CurrencySupport;
+use Digihust\Paymentgateway\Traits\IndianCurrencySupport;
+use Digihust\Paymentgateway\Traits\PaymentEnvironment;
 
 
 class CashFreePay extends PaymentGatewayBase

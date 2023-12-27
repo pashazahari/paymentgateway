@@ -1,8 +1,8 @@
 <?php
 
-namespace Dht\Paymentgateway\Base\Gateways;
+namespace Digihust\Paymentgateway\Base\Gateways;
 
-use  Dht\Paymentgateway\Base\PaymentGatewayBase;
+use  Digihust\Paymentgateway\Base\PaymentGatewayBase;
 use Square\SquareClient;
 use Square\Environment;
 use Square\Exceptions\ApiException;
@@ -11,8 +11,8 @@ use Square\Models\CreateOrderRequest;
 use Square\Models\CreateCheckoutRequest;
 use Square\Models\Order;
 use Square\Models\OrderLineItem;
-use Dht\Paymentgateway\Traits\CurrencySupport;
-use Dht\Paymentgateway\Traits\PaymentEnvironment;
+use Digihust\Paymentgateway\Traits\CurrencySupport;
+use Digihust\Paymentgateway\Traits\PaymentEnvironment;
 
 class SquarePay extends PaymentGatewayBase
 {

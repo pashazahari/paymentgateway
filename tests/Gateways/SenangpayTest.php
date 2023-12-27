@@ -1,10 +1,10 @@
 <?php
 
-namespace Dht\Paymentgateway\Tests\Gateways;
+namespace Digihust\Paymentgateway\Tests\Gateways;
 
-use Dht\Paymentgateway\Base\Gateways\Senangpay;
-use Dht\Paymentgateway\Base\Gateways\ZitoPay;
-use Dht\Paymentgateway\Tests\TestCase;
+use Digihust\Paymentgateway\Base\Gateways\Senangpay;
+use Digihust\Paymentgateway\Base\Gateways\ZitoPay;
+use Digihust\Paymentgateway\Tests\TestCase;
 
 class SenangpayTest extends TestCase
 {

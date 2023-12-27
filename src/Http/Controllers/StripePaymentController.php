@@ -1,10 +1,10 @@
 <?php
 
-namespace Dht\Paymentgateway\Http\Controllers;
+namespace Digihust\Paymentgateway\Http\Controllers;
 
 
 use Illuminate\Http\Request;
-use Dht\Paymentgateway\Facades\XgPaymentGateway;
+use Digihust\Paymentgateway\Facades\XgPaymentGateway;
 
 class StripePaymentController extends Controller
 {

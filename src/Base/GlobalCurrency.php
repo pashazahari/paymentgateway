@@ -1,6 +1,6 @@
 <?php
 
-namespace  Dht\Paymentgateway\Base;
+namespace  Digihust\Paymentgateway\Base;
 
 /**
  *  List of available currency in this package

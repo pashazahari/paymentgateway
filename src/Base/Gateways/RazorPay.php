@@ -1,13 +1,13 @@
 <?php
 
-namespace Dht\Paymentgateway\Base\Gateways;
+namespace Digihust\Paymentgateway\Base\Gateways;
 
 use Illuminate\Support\Facades\Http;
-use Dht\Paymentgateway\Base\PaymentGatewayBase;
+use Digihust\Paymentgateway\Base\PaymentGatewayBase;
 use Razorpay\Api\Api;
-use Dht\Paymentgateway\Traits\CurrencySupport;
-use Dht\Paymentgateway\Traits\IndianCurrencySupport;
-use Dht\Paymentgateway\Traits\PaymentEnvironment;
+use Digihust\Paymentgateway\Traits\CurrencySupport;
+use Digihust\Paymentgateway\Traits\IndianCurrencySupport;
+use Digihust\Paymentgateway\Traits\PaymentEnvironment;
 
 class RazorPay extends PaymentGatewayBase
 {

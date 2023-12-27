@@ -1,14 +1,14 @@
 <?php
 
-namespace Dht\Paymentgateway\Base\Gateways;
+namespace Digihust\Paymentgateway\Base\Gateways;
 
 use Illuminate\Support\Facades\Config;
-use Dht\Paymentgateway\Base\GlobalCurrency;
-use Dht\Paymentgateway\Base\PaymentGatewayBase;
+use Digihust\Paymentgateway\Base\GlobalCurrency;
+use Digihust\Paymentgateway\Base\PaymentGatewayBase;
 use Srmklive\PayPal\Services\PayPal as PayPalClient;
-use Dht\Paymentgateway\Traits\ConvertUsdSupport;
-use Dht\Paymentgateway\Traits\CurrencySupport;
-use Dht\Paymentgateway\Traits\PaymentEnvironment;
+use Digihust\Paymentgateway\Traits\ConvertUsdSupport;
+use Digihust\Paymentgateway\Traits\CurrencySupport;
+use Digihust\Paymentgateway\Traits\PaymentEnvironment;
 
 class PaypalPay extends PaymentGatewayBase
 {

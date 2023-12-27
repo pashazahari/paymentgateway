@@ -1,14 +1,14 @@
 <?php
 
-namespace Dht\Paymentgateway\Base\Gateways;
+namespace Digihust\Paymentgateway\Base\Gateways;
 use Illuminate\Support\Facades\Http;
-use Dht\Paymentgateway\Base\PaymentGatewayBase;
-use Dht\Paymentgateway\Base\PaymentGatewayHelpers;
-use Dht\Paymentgateway\Facades\XgPaymentGateway;
-use Dht\Paymentgateway\Traits\ConvertUsdSupport;
-use Dht\Paymentgateway\Traits\CurrencySupport;
-use Dht\Paymentgateway\Traits\MyanmarCurrencySupport;
-use Dht\Paymentgateway\Traits\PaymentEnvironment;
+use Digihust\Paymentgateway\Base\PaymentGatewayBase;
+use Digihust\Paymentgateway\Base\PaymentGatewayHelpers;
+use Digihust\Paymentgateway\Facades\XgPaymentGateway;
+use Digihust\Paymentgateway\Traits\ConvertUsdSupport;
+use Digihust\Paymentgateway\Traits\CurrencySupport;
+use Digihust\Paymentgateway\Traits\MyanmarCurrencySupport;
+use Digihust\Paymentgateway\Traits\PaymentEnvironment;
 use Illuminate\Support\Facades\Cookie;
 
 class KineticPay extends PaymentGatewayBase

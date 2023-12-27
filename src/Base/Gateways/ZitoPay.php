@@ -1,13 +1,13 @@
 <?php
 
-namespace Dht\Paymentgateway\Base\Gateways;
+namespace Digihust\Paymentgateway\Base\Gateways;
 
 use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Str;
-use Dht\Paymentgateway\Base\PaymentGatewayBase;
-use Dht\Paymentgateway\Traits\ConvertUsdSupport;
-use Dht\Paymentgateway\Traits\CurrencySupport;
-use Dht\Paymentgateway\Traits\PaymentEnvironment;
+use Digihust\Paymentgateway\Base\PaymentGatewayBase;
+use Digihust\Paymentgateway\Traits\ConvertUsdSupport;
+use Digihust\Paymentgateway\Traits\CurrencySupport;
+use Digihust\Paymentgateway\Traits\PaymentEnvironment;
 
 class ZitoPay extends PaymentGatewayBase
 {

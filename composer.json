@@ -1,9 +1,9 @@
 {
-    "name": "Dht/paymentgateway",
+    "name": "Digihust/paymentgateway",
     "description": "a laravel package to manage multiple payment gateway",
     "keywords": [
         "Laravel",
-        "Dht"
+        "Digihust"
     ],
     "authors": [
         {
@@ -41,18 +41,18 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Dht\\Paymentgateway\\": "src/"
+            "Digihust\\Paymentgateway\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Dht\\Paymentgateway\\Tests\\": "tests/"
+            "Digihust\\Paymentgateway\\Tests\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Dht\\Paymentgateway\\Providers\\PaymentgatewayServiceProvider"
+                "Digihust\\Paymentgateway\\Providers\\PaymentgatewayServiceProvider"
             ]
         }
     },

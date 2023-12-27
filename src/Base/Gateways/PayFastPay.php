@@ -1,11 +1,11 @@
 <?php
 
-namespace Dht\Paymentgateway\Base\Gateways;
+namespace Digihust\Paymentgateway\Base\Gateways;
 use Illuminate\Support\Facades\Config;
-use Dht\Paymentgateway\Base\PaymentGatewayBase;
-use Dht\Paymentgateway\Traits\CurrencySupport;
-use Dht\Paymentgateway\Traits\PaymentEnvironment;
-use Dht\Paymentgateway\Traits\ZarCurrencySupport;
+use Digihust\Paymentgateway\Base\PaymentGatewayBase;
+use Digihust\Paymentgateway\Traits\CurrencySupport;
+use Digihust\Paymentgateway\Traits\PaymentEnvironment;
+use Digihust\Paymentgateway\Traits\ZarCurrencySupport;
 
 
 class PayFastPay extends PaymentGatewayBase
