@@ -1,6 +1,6 @@
 <?php
 
-namespace Digihust\Paymentgateway\Tests;
+namespace digihust\Paymentgateway\Tests;
 
 use Orchestra\Testbench\TestCase as OrchestraTestCase;
 use Illuminate\Foundation\Application;
@@ -22,7 +22,7 @@ abstract class TestCase extends OrchestraTestCase
     protected function getPackageProviders($app)
     {
         return [
-            \Digihust\Paymentgateway\Providers\PaymentgatewayServiceProvider::class
+            \digihust\Paymentgateway\Providers\PaymentgatewayServiceProvider::class
         ];
     }
 }

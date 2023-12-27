@@ -1,34 +1,34 @@
 <?php
 
-namespace Digihust\Paymentgateway\Base;
+namespace digihust\Paymentgateway\Base;
 
-use Digihust\Paymentgateway\Base\Gateways\AuthorizeDotNetPay;
-use Digihust\Paymentgateway\Base\Gateways\BillPlzPay;
-use Digihust\Paymentgateway\Base\Gateways\CashFreePay;
-use Digihust\Paymentgateway\Base\Gateways\CinetPay;
-use Digihust\Paymentgateway\Base\Gateways\FlutterwavePay;
-use Digihust\Paymentgateway\Base\Gateways\InstamojoPay;
-use Digihust\Paymentgateway\Base\Gateways\KineticPay;
-use Digihust\Paymentgateway\Base\Gateways\MidtransPay;
-use Digihust\Paymentgateway\Base\Gateways\MolliePay;
-use Digihust\Paymentgateway\Base\Gateways\PagaliPay;
-use Digihust\Paymentgateway\Base\Gateways\PayFastPay;
-use Digihust\Paymentgateway\Base\Gateways\PaypalPay;
-use Digihust\Paymentgateway\Base\Gateways\PaystackPay;
-use Digihust\Paymentgateway\Base\Gateways\PayTabsPay;
-use Digihust\Paymentgateway\Base\Gateways\PaytmPay;
-use Digihust\Paymentgateway\Base\Gateways\PayUmoneyPay;
-use Digihust\Paymentgateway\Base\Gateways\RazorPay;
-use Digihust\Paymentgateway\Base\Gateways\SaltPay;
-use Digihust\Paymentgateway\Base\Gateways\Senangpay;
-use Digihust\Paymentgateway\Base\Gateways\SitesWayPay;
-use Digihust\Paymentgateway\Base\Gateways\SquarePay;
-use Digihust\Paymentgateway\Base\Gateways\StripePay;
-use Digihust\Paymentgateway\Base\Gateways\MercadoPagoPay;
-use Digihust\Paymentgateway\Base\Gateways\Toyyibpay;
-use Digihust\Paymentgateway\Base\Gateways\TransactionCloudPay;
-use Digihust\Paymentgateway\Base\Gateways\WiPay;
-use Digihust\Paymentgateway\Base\Gateways\ZitoPay;
+use digihust\Paymentgateway\Base\Gateways\AuthorizeDotNetPay;
+use digihust\Paymentgateway\Base\Gateways\BillPlzPay;
+use digihust\Paymentgateway\Base\Gateways\CashFreePay;
+use digihust\Paymentgateway\Base\Gateways\CinetPay;
+use digihust\Paymentgateway\Base\Gateways\FlutterwavePay;
+use digihust\Paymentgateway\Base\Gateways\InstamojoPay;
+use digihust\Paymentgateway\Base\Gateways\KineticPay;
+use digihust\Paymentgateway\Base\Gateways\MidtransPay;
+use digihust\Paymentgateway\Base\Gateways\MolliePay;
+use digihust\Paymentgateway\Base\Gateways\PagaliPay;
+use digihust\Paymentgateway\Base\Gateways\PayFastPay;
+use digihust\Paymentgateway\Base\Gateways\PaypalPay;
+use digihust\Paymentgateway\Base\Gateways\PaystackPay;
+use digihust\Paymentgateway\Base\Gateways\PayTabsPay;
+use digihust\Paymentgateway\Base\Gateways\PaytmPay;
+use digihust\Paymentgateway\Base\Gateways\PayUmoneyPay;
+use digihust\Paymentgateway\Base\Gateways\RazorPay;
+use digihust\Paymentgateway\Base\Gateways\SaltPay;
+use digihust\Paymentgateway\Base\Gateways\Senangpay;
+use digihust\Paymentgateway\Base\Gateways\SitesWayPay;
+use digihust\Paymentgateway\Base\Gateways\SquarePay;
+use digihust\Paymentgateway\Base\Gateways\StripePay;
+use digihust\Paymentgateway\Base\Gateways\MercadoPagoPay;
+use digihust\Paymentgateway\Base\Gateways\Toyyibpay;
+use digihust\Paymentgateway\Base\Gateways\TransactionCloudPay;
+use digihust\Paymentgateway\Base\Gateways\WiPay;
+use digihust\Paymentgateway\Base\Gateways\ZitoPay;
 
 /**
  * @see SquarePay

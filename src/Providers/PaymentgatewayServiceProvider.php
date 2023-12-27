@@ -1,9 +1,9 @@
 <?php
 
-namespace Digihust\Paymentgateway\Providers;
+namespace digihust\Paymentgateway\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use Digihust\Paymentgateway\Base\PaymentGatewayHelpers;
+use digihust\Paymentgateway\Base\PaymentGatewayHelpers;
 
 class PaymentgatewayServiceProvider extends ServiceProvider
 {
@@ -64,7 +64,7 @@ class PaymentgatewayServiceProvider extends ServiceProvider
          */
         // if ($this->app->runningInConsole()) {
         //     $this->commands([
-        //         \Digihust\Paymentgateway\Console\Commands\PaymentgatewayCommand::class,
+        //         \digihust\Paymentgateway\Console\Commands\PaymentgatewayCommand::class,
         //     ]);
         // }
 

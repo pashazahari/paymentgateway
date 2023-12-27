@@ -1,12 +1,12 @@
 <?php
 
-namespace Digihust\Paymentgateway\Base\Gateways;
+namespace digihust\Paymentgateway\Base\Gateways;
 
 use Tzsk\Payu\Concerns\Attributes;
 use Tzsk\Payu\Concerns\Customer;
 use Tzsk\Payu\Concerns\Transaction;
 use Tzsk\Payu\Facades\Payu;
-use Digihust\Paymentgateway\Base\PaymentGatewayBase;
+use digihust\Paymentgateway\Base\PaymentGatewayBase;
 
 class PayUmoneyPay extends PaymentGatewayBase
 {

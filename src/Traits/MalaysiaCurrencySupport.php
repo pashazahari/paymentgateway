@@ -1,6 +1,6 @@
 <?php
-namespace Digihust\Paymentgateway\Traits;
-use Digihust\Paymentgateway\Base\GlobalCurrency;
+namespace digihust\Paymentgateway\Traits;
+use digihust\Paymentgateway\Base\GlobalCurrency;
 
 trait MalaysiaCurrencySupport
 {

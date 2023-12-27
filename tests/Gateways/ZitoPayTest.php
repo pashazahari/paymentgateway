@@ -1,10 +1,10 @@
 <?php
 
-namespace Digihust\Paymentgateway\Tests\Gateways;
+namespace digihust\Paymentgateway\Tests\Gateways;
 
 use Illuminate\Support\Facades\Http;
-use Digihust\Paymentgateway\Tests\TestCase;
-use Digihust\Paymentgateway\Base\Gateways\ZitoPay;
+use digihust\Paymentgateway\Tests\TestCase;
+use digihust\Paymentgateway\Base\Gateways\ZitoPay;
 
 class ZitoPayTest extends TestCase
 {

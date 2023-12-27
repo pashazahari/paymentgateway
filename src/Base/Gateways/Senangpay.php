@@ -1,19 +1,19 @@
 <?php
 
-namespace Digihust\Paymentgateway\Base\Gateways;
+namespace digihust\Paymentgateway\Base\Gateways;
 
 use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Str;
-use Digihust\Paymentgateway\Base\PaymentGatewayBase;
-use Digihust\Paymentgateway\Base\PaymentGatewayHelpers;
-use Digihust\Paymentgateway\Base\RecurringSupport;
-use Digihust\Paymentgateway\Facades\XgPaymentGateway;
-use Digihust\Paymentgateway\Traits\ConvertUsdSupport;
-use Digihust\Paymentgateway\Traits\CurrencySupport;
-use Digihust\Paymentgateway\Traits\IndianCurrencySupport;
-use Digihust\Paymentgateway\Traits\MyanmarCurrencySupport;
-use Digihust\Paymentgateway\Traits\PaymentEnvironment;
+use digihust\Paymentgateway\Base\PaymentGatewayBase;
+use digihust\Paymentgateway\Base\PaymentGatewayHelpers;
+use digihust\Paymentgateway\Base\RecurringSupport;
+use digihust\Paymentgateway\Facades\XgPaymentGateway;
+use digihust\Paymentgateway\Traits\ConvertUsdSupport;
+use digihust\Paymentgateway\Traits\CurrencySupport;
+use digihust\Paymentgateway\Traits\IndianCurrencySupport;
+use digihust\Paymentgateway\Traits\MyanmarCurrencySupport;
+use digihust\Paymentgateway\Traits\PaymentEnvironment;
 use CinetPay\CinetPay as CinetPayment;
 
 class Senangpay extends PaymentGatewayBase implements RecurringSupport

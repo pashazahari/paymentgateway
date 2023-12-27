@@ -1,6 +1,6 @@
 <?php
 
-namespace Digihust\Paymentgateway\Console\Commands;
+namespace digihust\Paymentgateway\Console\Commands;
 
 use Illuminate\Console\Command;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Digihust\Paymentgateway\Http\Controllers;
+namespace digihust\Paymentgateway\Http\Controllers;
 
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Foundation\Bus\DispatchesJobs;

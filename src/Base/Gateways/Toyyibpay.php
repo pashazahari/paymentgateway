@@ -1,6 +1,6 @@
 <?php
 
-namespace Digihust\Paymentgateway\Base\Gateways;
+namespace digihust\Paymentgateway\Base\Gateways;
 
 use Billplz\Laravel\Billplz;
 use Carbon\Carbon;
@@ -8,11 +8,11 @@ use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Session;
-use Digihust\Paymentgateway\Base\PaymentGatewayBase;
-use Digihust\Paymentgateway\Base\PaymentGatewayHelpers;
-use Digihust\Paymentgateway\Traits\CurrencySupport;
-use Digihust\Paymentgateway\Traits\MyanmarCurrencySupport;
-use Digihust\Paymentgateway\Traits\PaymentEnvironment;
+use digihust\Paymentgateway\Base\PaymentGatewayBase;
+use digihust\Paymentgateway\Base\PaymentGatewayHelpers;
+use digihust\Paymentgateway\Traits\CurrencySupport;
+use digihust\Paymentgateway\Traits\MyanmarCurrencySupport;
+use digihust\Paymentgateway\Traits\PaymentEnvironment;
 use Billplz\Signature;
 use Illuminate\Support\Str;
 

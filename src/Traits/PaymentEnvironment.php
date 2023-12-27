@@ -1,6 +1,6 @@
 <?php
 
-namespace Digihust\Paymentgateway\Traits;
+namespace digihust\Paymentgateway\Traits;
 
 trait PaymentEnvironment
 {

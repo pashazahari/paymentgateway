@@ -1,15 +1,15 @@
 <?php
 
-namespace Digihust\Paymentgateway\Base\Gateways;
+namespace digihust\Paymentgateway\Base\Gateways;
 
 use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Str;
-use Digihust\Paymentgateway\Base\PaymentGatewayBase;
-use Digihust\Paymentgateway\Traits\ConvertUsdSupport;
-use Digihust\Paymentgateway\Traits\CurrencySupport;
-use Digihust\Paymentgateway\Traits\IndianCurrencySupport;
-use Digihust\Paymentgateway\Traits\PaymentEnvironment;
+use digihust\Paymentgateway\Base\PaymentGatewayBase;
+use digihust\Paymentgateway\Traits\ConvertUsdSupport;
+use digihust\Paymentgateway\Traits\CurrencySupport;
+use digihust\Paymentgateway\Traits\IndianCurrencySupport;
+use digihust\Paymentgateway\Traits\PaymentEnvironment;
 use Paytabscom\Laravel_paytabs\Facades\paypage;
 
 class PayTabsPay extends PaymentGatewayBase

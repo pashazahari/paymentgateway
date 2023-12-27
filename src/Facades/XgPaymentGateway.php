@@ -1,11 +1,11 @@
 <?php
 
-namespace Digihust\Paymentgateway\Facades;
+namespace digihust\Paymentgateway\Facades;
 
 use Illuminate\Support\Facades\Facade;
-use Digihust\Paymentgateway\Base\Gateways\InstamojoPay;
-use Digihust\Paymentgateway\Base\PaymentGatewayHelpers;
-use Digihust\Paymentgateway\Base\Gateways\SquarePay;
+use digihust\Paymentgateway\Base\Gateways\InstamojoPay;
+use digihust\Paymentgateway\Base\PaymentGatewayHelpers;
+use digihust\Paymentgateway\Base\Gateways\SquarePay;
 /**
  * @see GlobalCurrency
  * @method static script_currency_list()

@@ -1,8 +1,8 @@
 <?php
 
-namespace Digihust\Paymentgateway\Traits;
+namespace digihust\Paymentgateway\Traits;
 
-use Digihust\Paymentgateway\Base\Gateways\CashFreePay;
+use digihust\Paymentgateway\Base\Gateways\CashFreePay;
 
 trait CurrencySupport
 {

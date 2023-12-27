@@ -1,14 +1,14 @@
 <?php
 
-namespace Digihust\Paymentgateway\Base\Gateways;
+namespace digihust\Paymentgateway\Base\Gateways;
 
 use Illuminate\Support\Facades\Crypt;
 use Illuminate\Support\Facades\Http;
-use Digihust\Paymentgateway\Base\PaymentGatewayBase;
-use Digihust\Paymentgateway\Base\PaymentGatewayHelpers;
-use Digihust\Paymentgateway\Traits\ConvertUsdSupport;
-use Digihust\Paymentgateway\Traits\CurrencySupport;
-use Digihust\Paymentgateway\Traits\PaymentEnvironment;
+use digihust\Paymentgateway\Base\PaymentGatewayBase;
+use digihust\Paymentgateway\Base\PaymentGatewayHelpers;
+use digihust\Paymentgateway\Traits\ConvertUsdSupport;
+use digihust\Paymentgateway\Traits\CurrencySupport;
+use digihust\Paymentgateway\Traits\PaymentEnvironment;
 
 class TransactionCloudPay extends PaymentGatewayBase
 {
